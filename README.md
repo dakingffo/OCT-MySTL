@@ -32,7 +32,6 @@ include文件夹中包含所有的头文件，可以从test文件夹中下载功
 ### 容器适配器: queue
 + 默认使用oct::deque作为底层容器
 + 提供<<的运算符重载
-+ 使用compress_pair进行空基类优化
 ### 容器适配器: priority_queue
 + 默认使用oct::vector作为底层容器
 + 提供<<的运算符重载
